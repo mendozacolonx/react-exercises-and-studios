@@ -4,27 +4,27 @@ import Button from './Button';
 
 function Profile() {
 
-const listItem = oceans.map(ocean =>
-   <div key={ocean.id}
-      className={`${ocean.fishCheck === "true" ? "isAFish" : "profile"}`}>
-      
-      <h1>{ocean.name}</h1>
+   const listItem = oceans.map(ocean =>
+      <div key={ocean.id}
+         className={`${ocean.fishCheck === "true" ? "isAFish" : "profile"}`}>
 
-      <img src={ocean.image}
-         alt={ocean.name}
-         className="img" />
+         <h1>{ocean.name}</h1>
+
+         <img src={ocean.image}
+            alt={ocean.name}
+            className="img" />
 
 
-      <h3>Fun Facts</h3>
+         <h3>Fun Facts</h3>
 
-      <ul>
-         <li>{ocean.fact1}</li>
-         <li>{ocean.fact2}</li>
-         <li>{ocean.fact3}</li>
-      </ul>
-   
-   </div>
-);
+         <ul>
+            <li>{ocean.fact1}</li>
+            <li>{ocean.fact2}</li>
+            <li>{ocean.fact3}</li>
+         </ul>
+
+      </div>
+   );
 
 
 
