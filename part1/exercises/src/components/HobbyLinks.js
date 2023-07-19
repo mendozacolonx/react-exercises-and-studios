@@ -1,4 +1,4 @@
-function hobbyLinks(){
+export default function hobbyLinks(){
     let hobbyLinks = ["https://www.tennis.com/", "https://www.runnersworld.com/", "https://www.goodreads.com/"]
     return (
         <div>
